@@ -11,6 +11,8 @@ public class advent {
         }
         System.out.println("Values increased " + count + " times");
 
+        // part 2
+
         count = 0;
         int sum_group = recordings[0] + recordings[1] + recordings[2];
         for(int i = 1; i < recordings.length; i++){
